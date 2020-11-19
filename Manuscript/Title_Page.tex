@@ -1,0 +1,113 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage{lmodern}
+\usepackage{lastpage} % count pages
+\usepackage{indentfirst}
+\usepackage{fixltx2e} % for adding subscripts
+\usepackage{amsmath,amssymb}
+\usepackage[hidelinks]{hyperref}
+\makeatletter
+\newsavebox\myboxA
+\newsavebox\myboxB
+\newlength\mylenA
+\usepackage{xr} %For ref across files
+% All for sub-figure
+\usepackage{graphicx}%
+\usepackage{caption}
+\usepackage{csquotes}
+\usepackage{subcaption}%
+\usepackage[titles]{tocloft}
+\usepackage{booktabs}
+\usepackage{titlesec, blindtext, color}
+\definecolor{gray75}{gray}{0.75}
+\newcommand{\hsp}{\hspace{20pt}}
+\titleformat{\chapter}[hang]{\Large\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Large\bfseries}
+\makeatother
+\usepackage{lineno} %for line numbering
+\usepackage{setspace} %for line spacing
+\usepackage{mathtools} %for sigma across..
+\RequirePackage{geometry}
+\geometry{
+	paper=a4paper, % Default paper size, change to "letterpaper" for US Letter (you'll need to adjust margins after)
+%	inner=1.5in, % The inner margin (beside binding)
+	inner=3.0cm,
+%	outer=1in, % The outer margin (opposite binding)
+	outer=3.0cm,
+%	top=.6in, % Top margin
+	top=2.75cm,
+%	bottom=.8in, % bottom margin
+	bottom=2.5cm,
+	headheight=20pt, % Header height
+	headsep=.25in, % Header separation
+	includehead,
+	includefoot
+}
+% For dealing with references
+\usepackage[
+backend=biber,
+style=nature,
+citestyle=authoryear,
+bibstyle=authoryear,
+maxcitenames=2,
+uniquelist=false,
+uniquename=false,
+]{biblatex} 
+\usepackage{fbb} % for addition of Bembo font
+
+\usepackage{array}
+\newcolumntype{L}{>{\centering\arraybackslash}m{4cm}} %both for allowing text-wrap in tables
+\newcolumntype{B}{>{\centering\arraybackslash}m{3cm}} %both for allowing text-wrap in tables
+
+\newcommand{\bbletterm}{{\textsf{m}\hspace*{-1.0ex}%
+  \rule{0.15ex}{1.3ex}\hspace*{1.0ex}}}
+
+\bibliography{/home/joshk/git_repositories/Phd_Thesis/Sorted_Thesis_Refs}{}
+\addbibresource{/home/joshk/git_repositories/Phd_Thesis/Sorted_Thesis_Refs}
+
+\begin{document}
+
+\fontsize{12pt}{12pt}\selectfont
+
+\par\noindent \textbf{Title:} Flexibility of body surface temperature during stress exposure is repeatable and may enable coping with concurrent thermal and physical challenges
+\vspace{\baselineskip}
+\vspace{\baselineskip}
+
+\par\noindent \textbf{Running Title:} Surface temperature flexibility is repeatable
+\vspace{\baselineskip}
+
+\par\noindent Joshua K. Robertson\textsuperscript{1,2}*, Gabriela F. Mastromonaco\textsuperscript{2$\dagger$}, Gary Burness\textsuperscript{3$\dagger$}
+
+\vspace{\baselineskip}
+\vspace{\baselineskip}
+
+\par\noindent \textsuperscript{1}Environmental and Life Sciences Graduate Program, Trent University, Peterborough, Ontario, Canada, K9L 0G2
+\vspace{\baselineskip}
+
+\par\noindent \textsuperscript{2}Department of Wildlife and Science, Toronto Zoo, Scarborough, Ontario, Canada, M1B 5K7
+\vspace{\baselineskip}
+
+\par\noindent \textsuperscript{3}Department of Biology, Trent University, Peterborough, Ontario, Canada, K9L 0G2
+\vspace{\baselineskip}
+
+\par\noindent* Corresponding author
+\par\noindent\textsuperscript{$\dagger$} Authors contributed equally
+\par\noindent E-mail: joshuarobertson@trentu.ca (J.K. Robertson).
+\vspace{\baselineskip}
+\vspace{\baselineskip}
+
+\par\noindent \textbf{Acknowledgments}: First, we thank both Lianne Ralph and the collective staff at the Ruthven Park National Historic Site for their assistance in experimental execution, without which this study would not have been possible. Furthermore, we thank Kimberley Tasker, Simon Tapper and Tyler Maksymiw for their assistance in aviary construction, Simon Tapper for his statistical insight, and Elise Cote for her artistic contributions to figures 1 and 2. This research was supported by an NSERC Discovery grant (RGPIN-04158-2014) to GB and an NSERC CREATE grant (RGPIN-481954-2016) to GB, GM, and JKR.
+\vspace{\baselineskip}
+
+\par\noindent \textbf{Data Availability Statement}: All data and R code used for the construction of this study are available at: 
+\vspace{\baselineskip}
+
+\par\noindent \textbf{Author Contributions}: JKR and GB conceived the study. JKR executed the experiments, collected and analysed the data, and wrote the first draft of the manuscript. GFM and GB contributed to manuscript revision.
+\vspace{\baselineskip}
+
+\par\noindent \textbf{Conflicts of Interest}: The authors have no conflicts of interest to declare.
+
+\vspace{\baselineskip}
+\vspace{\baselineskip}
+
+\end{document}
