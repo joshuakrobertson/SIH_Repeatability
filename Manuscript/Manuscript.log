@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.3.6)  17 NOV 2020 20:46
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.3.6)  23 NOV 2020 16:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -751,6 +751,6 @@ Here is how much of TeX's memory you used:
  16048 multiletter control sequences out of 15000+600000
  68330 words of font info for 46 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 36i,15n,77p,3531b,691s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,15n,77p,3816b,691s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on Manuscript.pdf (61 pages).
