@@ -1,9 +1,0 @@
-[0] Config.pm:302> INFO - This is Biber 2.9
-[1] Config.pm:305> INFO - Logfile is 'Title_Page.blg'
-[36] biber:313> INFO - === Tue Nov 17, 2020, 18:23:04
-[56] Biber.pm:371> INFO - Reading 'Title_Page.bcf'
-[123] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
-[135] Utils.pm:169> WARN - The file 'Title_Page.bcf' does not contain any citations!
-[143] bbl.pm:617> INFO - Writing 'Title_Page.bbl' with encoding 'UTF-8'
-[144] bbl.pm:720> INFO - Output to Title_Page.bbl
-[144] Biber.pm:110> INFO - WARNINGS: 1
