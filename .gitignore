@@ -1,4 +1,10 @@
-Figures/
+Rough_Figures/
 Shapefiles_Rasters/
 brms_outputs/
-Manuscript/
+Raw_Manuscript_Files/
+R_Code/All_Repeatability_Analyses.R
+R_Code/Extra_Analyses.r
+R_Code/Repeatability_Analysis.R
+brms_output_code.R
+texput.log
+
