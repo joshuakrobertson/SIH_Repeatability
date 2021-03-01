@@ -3391,7 +3391,7 @@ Area = Area*2 # For two eyes
 qrad_Clean = c()
 for (i in 1:nrow(Third_Bound)) {
   qrad_Clean[i] = Area * (5.67 * 10^-8) * 0.95 * 0.95 *
-    ((Third_Bound$Maximum.Eye.Temp[i] + 273.15)^4 - (Third_Bound$Maximum.Eye.Temp[i] + 273.15)^4)
+    ((Third_Bound$Maximum.Eye.Temp[i] + 273.15)^4 - (Third_Bound$Amb.Temp[i] + 273.15)^4)
 }
 
 Kt_clean = c()
